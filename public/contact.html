@@ -1,0 +1,36 @@
+<!-- src/contact.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../public/styles.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 p-4 text-white shadow-lg">
+        <nav class="flex justify-around">
+            <a href="index.html" class="hover:underline">Accueil</a>
+            <a href="about.html" class="hover:underline">À propos</a>
+            <a href="projects.html" class="hover:underline">Projets</a>
+            <a href="contact.html" class="hover:underline">Contact</a>
+        </nav>
+    </header>
+    
+    <main class="p-10 max-w-lg mx-auto">
+        <h2 class="text-3xl font-bold text-center animate-fadeIn">Contactez-moi</h2>
+        <p class="mt-4 text-center animate-fadeIn delay-300">Remplissez le formulaire ci-dessous pour me joindre !</p>
+        
+        <form class="mt-8 space-y-4 animate-fadeIn delay-500">
+            <input type="text" placeholder="Votre nom" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform transform hover:scale-105">
+            <input type="email" placeholder="Votre email" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform transform hover:scale-105">
+            <textarea placeholder="Votre message" class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform transform hover:scale-105"></textarea>
+            <button type="submit" class="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition-transform transform hover:scale-105">Envoyer</button>
+        </form>
+    </main>
+    
+    <footer class="bg-blue-500 text-white p-4 text-center">
+        &copy; 2024 Mon Portfolio
+    </footer>
+</body>
+</html>

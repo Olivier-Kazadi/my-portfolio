@@ -1,0 +1,8 @@
+/* src/styles.css */
+
+/* Importation des styles de base, composants et utilitaires de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoute ici tes propres styles personnalisés */

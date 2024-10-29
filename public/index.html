@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 min-h-screen text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white p-5 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-bold">Mon Portfolio</h1>
+            <nav class="space-x-4">
+                <a href="#about" class="hover:text-gray-300 transition-colors">À propos</a>
+                <a href="#projects" class="hover:text-gray-300 transition-colors">Projets</a>
+                <a href="#contact" class="hover:text-gray-300 transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <main class="container mx-auto p-5">
+        <section id="about" class="my-16 text-center">
+            <h2 class="text-5xl font-extrabold mb-4 text-indigo-600 animate-bounce">Bienvenue</h2>
+            <p class="text-lg text-gray-700 font-light">
+                Je suis développeur web, passionné par la création de sites modernes et fonctionnels.
+            </p>
+            <p class="mt-4 text-gray-600">
+                Explorez mes projets et découvrez mon parcours.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-purple-600">Mes Projets GitHub</h2>
+            <div id="projectList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-16 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-indigo-600">Contactez-moi</h2>
+            <p class="text-gray-600 mb-8">
+                Vous avez un projet ou souhaitez collaborer ? Envoyez-moi un message !
+            </p>
+            <a href="mailto:o.kazadi19@gmail.com" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition-colors shadow-lg">
+                Me contacter
+            </a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white p-5 text-center">
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
